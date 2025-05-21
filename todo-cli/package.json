@@ -4,7 +4,7 @@
   "main": "todo.js",
   "scripts": {
     "test": "jest",
-    "prepare": "husky"
+    "prepare": "husky install"
   },
   "author": "Murali <b.muralisridharan@gmail.com>",
   "license": "ISC",
@@ -14,8 +14,5 @@
   },
   "devDependencies": {
     "husky": "^9.1.7"
-  },
-  "script": {
-    "package": "husky install"
   }
 }
