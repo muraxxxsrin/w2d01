@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "todo.js",
   "scripts": {
-    "test": "jest",
-    "prepare": "husky install"
+    "test": "jest"
   },
   "author": "Murali <b.muralisridharan@gmail.com>",
   "license": "ISC",
