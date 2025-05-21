@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const todo=require("../todo");
 
 const {all,markAsComplete,add} = todo();
