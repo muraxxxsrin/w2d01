@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "main": "todo.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky"
   },
   "author": "Murali <b.muralisridharan@gmail.com>",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  },
+  "script": {
+    "package": "husky install"
   }
 }
