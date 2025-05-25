@@ -4,7 +4,7 @@
   "main": "addTodo.js",
   "scripts": {
     "test": "jest",
-    "prepare": "husky"
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.js": [
